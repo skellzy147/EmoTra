@@ -1,0 +1,54 @@
+body {
+    width: 80%;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+button {
+    font-size: 18px;
+    height: 30px;
+    width: 80%;
+    position: relative;
+    outline: 2px black;
+    margin: 10px;
+    float: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+select{
+    font-size: 20px;
+    width: 100%
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#optionsBox {
+    padding: 5px;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: -40px;
+}
+
+#saveButtonContainer {
+    text-align: center;
+}
+
+#status {
+    font-size: 18px;
+}
+
+.colorPick {
+    padding: 5px;
+    width: 45%;
+}
+

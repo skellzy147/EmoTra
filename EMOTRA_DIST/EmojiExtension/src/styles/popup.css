@@ -1,0 +1,45 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    height: 40px;
+    width: 100%;
+    outline: 0px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+#divider {
+    width: auto;
+    height: 5px;
+}
+
+#contentWrapper {
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.active{
+    background: grey !important;
+}
+button.btn-translate:active{
+    background:grey !important;
+}

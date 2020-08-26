@@ -1,0 +1,41 @@
+  {
+    "name": "EReTra",
+    "version": "2.0.0",
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": false
+    },
+    "web_accessible_resources": [
+      "images/img-apple-64/*.png",
+      "images/img-facebook-64/*.png",
+      "images/img-google-64/*.png",
+      "images/img-twitter-64/*.png"
+    ],
+    "description": "Extension to Translate Between Emoji Renderings",
+    "permissions": [
+      "activeTab", 
+      "http://*/",
+      "declarativeContent", 
+      "storage"
+    ],
+    "background": {
+      "scripts": ["scripts/background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/EReTra_16.png",
+        "32": "images/EReTra_32.png",
+        "48": "images/EReTra_48.png",
+        "128": "images/EReTra_128.png"
+      }
+    },
+    "icons": {
+      "16": "images/EReTra_16.png",
+      "32": "images/EReTra_32.png",
+      "48": "images/EReTra_48.png",
+      "128": "images/EReTra_128.png"
+    },
+    "manifest_version": 2
+  }
